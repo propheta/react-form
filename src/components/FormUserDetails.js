@@ -26,7 +26,7 @@ export class FormUserDetails extends Component {
                     <TextField
                         hintText="Enter Your Last Name"
                         floatingLabelText="Last Name"
-                        onChange={handleChanges('firstName')}
+                        onChange={handleChanges('lastName')}
                         defaultValue={values.lastName}
                     />
                     <br/>
